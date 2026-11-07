@@ -1,0 +1,19 @@
+[package]
+name = "editor"
+description = ""
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+rust-version.workspace = true
+
+[[bin]]
+name = "editor"
+path = "src/main.rs"
+
+[dependencies]
+rfd = { workspace = true }
+serde = { workspace = true }
+toml = { workspace = true }
+dirs = { workspace = true }
+printpdf = { workspace = true }
+gpui-kit = { workspace = true }
