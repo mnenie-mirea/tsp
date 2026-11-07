@@ -1,0 +1,24 @@
+[package]
+name = "monitor"
+description = "Служба мониторинга системных ресурсов для macOS (launchd-агент)"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+rust-version.workspace = true
+
+[lib]
+name = "monitor"
+path = "src/lib.rs"
+
+[[bin]]
+name = "monitor"
+path = "src/main.rs"
+
+[dependencies]
+sysinfo = { workspace = true }
+notify-rust = { workspace = true }
+serde = { workspace = true }
+serde_json = { workspace = true }
+toml = { workspace = true }
+dirs = { workspace = true }
+anyhow = { workspace = true }
