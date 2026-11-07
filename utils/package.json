@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "update-readme": "ts-node index.ts"
+    "update-readme": "tsx index.ts"
   },
   "dependencies": {
     "@types/node": "^20.0.0",
-    "ts-node": "^10.9.2",
+    "tsx": "^4.19.0",
     "typescript": "^7.0.0"
   }
 }
