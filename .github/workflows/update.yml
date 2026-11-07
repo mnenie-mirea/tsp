@@ -19,7 +19,7 @@ jobs:
           node-version: '24.22.1'
       - name: Install dependencies
         id: node
-        run: npm ci --ignore-scripts
+        run: npm install --ignore-scripts
         working-directory: utils
 
       - name: Run script
