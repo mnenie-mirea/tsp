@@ -7,5 +7,6 @@
 ### Все доступные README:
 
 <!-- README-LIST:START -->
-
+* [crates/editor](crates/editor/README.md)
+* [crates/monitor](crates/monitor/README.md)
 <!-- README-LIST:END -->
